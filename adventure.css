@@ -53,3 +53,31 @@ section h2{
     padding: 20px;
     border-radius: 10px;
 }
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"],
+select,
+textarea {
+width: 100%;
+padding: 8px;
+border: 1px solid #e5e7eb;
+border-radius: 6px;
+background-color: white;
+color: #374151;
+font-size: 14px;
+}
+textarea {
+    min-height: 100px;
+    resize: vertical;
+    }
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #1e3c72;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
