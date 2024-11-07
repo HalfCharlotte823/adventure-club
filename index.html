@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Traveling Club</title>
+    <link rel="stylesheet" href="adventure.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Adventure Traveling Club</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur excepturi explicabo molestiae possimus voluptatum a, deleniti ducimus quia incidunt officiis?</p>
+        </header>
+        <form>
+            <section class="personal">
+                <h2>Personal Information</h2>
+                <br>
+                <label class="required" for="fullName">Full Name</label>
+                <br>
+            <input type="text" id="fullName" name="fullName" required placeholder="John Doe">
+            <br>
+            <br>
+            <label class="required" for="email">Email</label>
+            <br>
+             <input type="email" id="email" name="email" required placeholder="youremail@gmail.com">
+             <br>
+             <br>
+            <label class="required" for="password">Password</label>
+            <br>
+            <input type="password" id="password" name="password" required placeholder="Insert Password Here">
+            <br>
+            <br>
+            <label class="required" for="date">Enter your Birthday</label>
+            <br>
+            <input type="date" id="date" name="date" required>
+            </section>
+            <section class="adventure">
+                <h2>Adventuring Preferences</h2>
+            <br>
+            <label for="dropdown">Experience Level</label>
+            <br>
+            <select id="exp" role="exp" required>
+                <option value="">   </option>
+                <option value="Master">Master Adventurer</option>
+                <option value="Experienced">Experienced Adventurer</option>
+                <option value="Newbie">Newbie Adventurer</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <label for="checkbox">Prefered activies</label>
+            <br>
+            <br>
+            <input type="checkbox" id="activieies" name="activieies" value="Hike">
+            <label for="checkbox">Hiking</label>
+            <br>
+            <input type="checkbox" id="activieies" name="activieies" value="Rock">
+            <label for="checkbox">Rock Climbing</label>
+            <br>
+            <input type="checkbox" id="activieies" name="activieies" value="Kayak">
+            <label for="checkbox">Kayaking</label>
+            <br>
+            <input type="checkbox" id="activieies" name="activieies" value="Scuba">
+            <label for="checkbox">Scuba Diving</label>
+            <br>
+            <br>
+            <br>
+            <label for="trip">Prefered Trip Duration</label>
+            <br>
+            <br>
+            <input type="radio" id="activieies" name="activieies" value="Weekend">
+            <label for="radio">Weekend Trips(2-3 Days)</label>
+            <br>
+            <br>
+            <input type="radio" id="activieies" name="activieies" value="Weekend">
+            <label for="radio">Week-Long Adventures(6-7 Days)</label>
+            <br>
+            <br>
+            <input type="radio" id="activieies" name="activieies" value="Weekend">
+            <label for="radio">Extended Expeditions(2+ Weeks)</label>
+        </section>
+        <section class="extra">
+            <h2>Additional Information</h2>
+            <br>
+            <br>
+            <br>
+            <label for="level">Fitness Level (1/10)</label>
+            <br>
+            <input type="range" min="1" max="10">
+            <br>
+            <br>
+            <br>
+            <label for="textarea">Tell us about yourself!</label>
+            <br>
+            <textarea cols="60" rows="5" placeholder="Explain your Reasons for Joining"></textarea>
+            <br>
+        </section>
+        <input type="submit">
+        </form>
+    </div>
+</body>
+</html>
